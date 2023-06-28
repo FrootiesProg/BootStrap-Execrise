@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBA List</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/font-awesome/css/font-awesome.css"
+    />
+    <style>
+      .team-warriors {
+        color: #1a1aff;
+      }
+
+      .team-lakers {
+        color: #ffc107;
+      }
+
+      .team-heat {
+        color: #ff5722;
+      }
+
+      .team-knicks {
+        color: #ff4081;
+      }
+
+      .team-celtics {
+        color: #008000;
+      }
+
+      .team-raptors {
+        color: #c41e3a;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#content"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="content">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+            >
+              Links
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link</a></li>
+              <li><a class="dropdown-item" href="#">Another link</a></li>
+              <li><a class="dropdown-item" href="#">A third link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1 class="my-4">Scoreboard</h1>
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Home</th>
+            <th>Home Score</th>
+            <th>Away</th>
+            <th>Away Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="team-warriors">Warriors</td>
+            <td>60</td>
+            <td class="team-lakers">Lakers</td>
+            <td>71</td>
+          </tr>
+          <tr>
+            <td class="team-heat">Miami Heat</td>
+            <td>60</td>
+            <td class="team-knicks">Knicks</td>
+            <td>71</td>
+          </tr>
+          <tr>
+            <td class="team-celtics">Celtics</td>
+            <td>60</td>
+            <td class="team-lakers">Lakers</td>
+            <td>71</td>
+          </tr>
+          <tr>
+            <td class="team-warriors">Warriors</td>
+            <td>60</td>
+            <td class="team-raptors">Raptors</td>
+            <td>71</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 class="my-3">Todos:</h2>
+      <div class="list-group my-2">
+        <a href="#" class="list-group-item list-group-item-success">
+          My Homework is completed
+        </a>
+        <a href="#" class="list-group-item list-group-item-info">
+          My Homework is almost complete
+        </a>
+        <a href="#" class="list-group-item list-group-item-warning">
+          My Homework is not complete yet
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
